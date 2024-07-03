@@ -17,3 +17,7 @@
 #welcome {
     width: 40%;
 }
+
+#ggd {
+    width: min-content;
+}

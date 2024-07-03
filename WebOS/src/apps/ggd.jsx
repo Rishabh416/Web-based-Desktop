@@ -5,7 +5,7 @@ function ggd() {
         <Draggable axis='both' handle='#ggdHandle' defaultPosition={{x:0, y:0}} >
             <div className="app" id="ggd">
                 <div className='handle' id='ggdHandle'><h3>Going Green Dubai</h3></div>
-                <iframe src="https://goinggreendubai.com" frameborder="0"></iframe>
+                <iframe src="https://goinggreendubai.com" width={640} height={480}></iframe>
             </div>
         </Draggable>
     )
